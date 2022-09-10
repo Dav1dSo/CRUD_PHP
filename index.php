@@ -1,7 +1,7 @@
 
 <?php
     // --Conexao com banco de dados--
-    $pdo = new PDO('mysql:host=localhost;dbname=crud', 'root', 'clashofclas');
+    $pdo = new PDO('mysql:host=localhost;dbname=crud', 'root', 'password');
 
     // --Insercao de dados nas tabelas--
     if(isset($_POST['nome'])){
